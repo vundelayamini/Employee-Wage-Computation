@@ -10,6 +10,7 @@ ispresent=1
 
 case $empCheck in
    $ispresent)
+         echo Employee is present
        salary=$(($WORK_HR*$EMP_RATE_PER_HR))
          echo $salary
         ;;
